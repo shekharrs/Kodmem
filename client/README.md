@@ -66,3 +66,9 @@ This application follows a hierarchical structure where `App.tsx` serves as the 
 
 ## 💾 Data Persistence
 Kodmem uses `localStorage` to ensure your "Neural Inventory" remains permanent on your machine without requiring a complex backend for demo purposes. Data is synced to the browser's local storage every time the `cards` state updates.
+
+
+
+<!-- Steps to do:
+1. Landing page(client side)
+2. work on backend DB for gmail storing(server side) -->

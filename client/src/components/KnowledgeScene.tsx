@@ -4,9 +4,9 @@ import { Float, Sphere, Torus, Stars } from '@react-three/drei';
 import * as THREE from 'three';
 
 // Aliases for intrinsic R3F elements to bypass JSX type check issues
-const AmbientLight = 'ambientLight' as any;
-const PointLight = 'pointLight' as any;
-const MeshStandardMaterial = 'meshStandardMaterial' as any;
+const AmbientLight = 'ambientLight';
+const PointLight = 'pointLight';
+const MeshStandardMaterial = 'meshStandardMaterial';
 
 const KnowledgeNode = ({ position, color, scale = 1 }: { position: [number, number, number]; color: string; scale?: number }) => {
   const ref = useRef<THREE.Mesh>(null);

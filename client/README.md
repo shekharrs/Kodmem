@@ -69,6 +69,9 @@ Kodmem uses `localStorage` to ensure your "Neural Inventory" remains permanent o
 
 
 
-<!-- Steps to do:
-1. Landing page(client side)
-2. work on backend DB for gmail storing(server side) -->
+<!-- Steps which will cover to create the Kodmem
+1. will create the rotaional 3D circle in our Kodmem background
+2. then we will jump into the navbar
+3. hero section
+4. footer section
+5. setting up the email integration to our DB(MongoDB) -->

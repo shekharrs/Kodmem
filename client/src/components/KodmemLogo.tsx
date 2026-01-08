@@ -1,8 +1,14 @@
-import React from "react";
+type KodmemLogoProps = {
+  className?: string;
+  size?: number;
+  color?: string;
+};
 
-const KodmemLogo: React.FC<{ className?: string, size?: number, color: string }> = ({className = "", size = 32, color = "currentColor"}) => {
+const KodmemLogo = ({ className, size, color }: KodmemLogoProps) => {
   return (
-    <div className={`relative flex items-center justify-center ${className}`} style={{ width: size, height: size}}>
+    <div className={`relative flex items-center justify-center ${className}`}
+      style={{width: size, height: size}}
+    >
       <svg
         viewBox="0 0 100 100"
         fill="none"

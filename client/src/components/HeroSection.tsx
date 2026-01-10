@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import ReviewDemo from "./ReviewDemo";
 
 const HeroSection = () => {
 
@@ -8,7 +9,7 @@ const HeroSection = () => {
         <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center mb-12 lg:mb-16">
         
         {/* Eyebrow */}
-          <div className="inline-block mb-10 px-8 py-2.5 border border-stone-200 text-stone-400 text-[10px] mt-[8rem] tracking-[0.4em] uppercase font-bold rounded-full backdrop-blur-sm bg-white/50 animate-fade-in shadow-sm">
+          <div className="inline-block mb-10 px-8 py-2.5 border border-stone-200 text-stone-400 text-[10px] mt-[8rem] tracking-[0.4em] uppercase font-bold rounded-lg backdrop-blur-sm bg-white/50 animate-fade-in shadow-sm">
             Memory Science for Developers
           </div>
 
@@ -19,12 +20,12 @@ const HeroSection = () => {
           </h1>
 
           {/* Subline */}
-          <p className="max-w-2xl mx-auto text-base sm:text-lg md:text-xl mt-[2rem] text-stone-500 font-medium leading-relaxed mb-10 sm:mb-14 px-4 animate-fade-in" style={{ animationDelay: '200ms' }}>
+          <p className="max-w-2xl mx-auto text-base sm:text-lg md:text-xl mt-[5rem] text-stone-500 font-medium leading-relaxed px-4 animate-fade-in" style={{ animationDelay: '200ms' }}>
              Remember your code. Not just learn it.          
           </p>
 
-          {/* Preview the experience below with arrow */}
-          <div className="flex flex-col items-center gap-6 sm:gap-8 mb-12 animate-fade-in" style={{ animationDelay: '400ms' }}>
+          {/* Preview */}
+          <div className="flex flex-col items-center gap-6 sm:gap-8  mb-12 animate-fade-in" style={{ animationDelay: '400ms' }}>
             <a href="#demo" className="group flex flex-col items-center gap-3 text-xs font-bold text-stone-400 hover:text-stone-900 transition-colors cursor-pointer mt-4">
               <span className="tracking-[0.2em]">Preview the experience below</span>
               <span className="p-3 border border-stone-200 rounded-full group-hover:border-stone-900 transition-all">
@@ -34,7 +35,11 @@ const HeroSection = () => {
           </div>
         </div>
 
-        
+        {/* ReviewDemo */}
+        <div id="demo" className="relative z-10 w-full px-4 sm:px-6">
+          <ReviewDemo />
+        </div>
+
       </div>
     </div>
   );

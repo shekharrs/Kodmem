@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center mb-12 lg:mb-16">
         
         {/* Eyebrow */}
-          <div className="inline-block mb-10 px-8 py-2.5 border border-stone-200 text-stone-400 text-[10px] mt-[8rem] tracking-[0.4em] uppercase font-bold rounded-lg backdrop-blur-sm bg-white/50 animate-fade-in shadow-sm">
+          <div className="inline-block mb-10 px-8 py-2.5 border border-stone-200 text-stone-400 text-[10px] mt-[8rem] tracking-[0.4em] uppercase font-bold rounded-full backdrop-blur-sm bg-white/50 animate-fade-in shadow-sm">
             Memory Science for Developers
           </div>
 
